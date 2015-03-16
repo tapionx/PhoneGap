@@ -90,6 +90,12 @@ public class AppsFlyerPlugin extends CordovaPlugin {
 				
 			}
 			
+			@Override
+			public void onAttributionFailure(String arg0) {
+				// TODO Auto-generated method stub
+				
+			}
+			
 		});
             	
 	}
